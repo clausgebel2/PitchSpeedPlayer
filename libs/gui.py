@@ -1,7 +1,7 @@
 """
 Author: Claus Gebel
 
-Pitch and Speed Changer
+Pitch Speed Player
 Copyright (C) 2024 Claus Gebel
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -133,7 +133,7 @@ class AudioPlayerGUI(QWidget):
 
     def reset_pitch(self):
         self.pitch_slider.setValue(100)
-        
+
 
     def closeEvent(self, event):
         self.event_handler.stop()

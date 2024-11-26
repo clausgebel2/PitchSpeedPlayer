@@ -1,7 +1,7 @@
 """
 Author: Claus Gebel
 
-Pitch and Speed Changer
+Pitch Speed Player
 Copyright (C) 2024 Claus Gebel
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -75,7 +75,7 @@ class AudioPlayer:
 
     def pause(self):
         self.pipeline.set_state(Gst.State.PAUSED)
-        
+
 
     def stop(self):
         self.pipeline.set_state(Gst.State.NULL)
